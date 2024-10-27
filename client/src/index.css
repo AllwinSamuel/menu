@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    -ms-overflow-style: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  #input:focus{
+  box-shadow: 3px 3px 10px rgba(0,0,0,1),
+  -1px -1px 6px rgba(255, 255, 255, 0.4);
+  
+  }
+
+  #cc:focus{
+    box-shadow: 3px 3px 10px rgb(253, 251, 251),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
+    
+    }
+  .header{
+    text-shadow: 12px 12px 15px #27374D ;
+  }
+  .head{
+    text-shadow: 12px 15px 15px #526D82;
+  }
